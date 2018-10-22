@@ -3,12 +3,12 @@ transaction {
   // See http://ionicframework.com/docs/api/components/grid/Grid/#customizing-the-grid
 
   ion-grid {
-    background-color: #f7f7f7;
-    border: 1px solid #f3f3f3;
+    background-color: #666;
+    border: 1px solid #666;
     border-radius: 3px;
 
     ion-row {
-      border: 1px solid #f3f3f3;
+      border: 1px solid #666;
 
       &.small {
         font-size: 1.1rem;
@@ -61,7 +61,11 @@ transaction {
   }
 
   .note-md {
-    color: #888;
+    color: #e2e2e2;
+  }
+
+  ion-icon{
+    color: #fff
   }
 
   .unlocking-script,
@@ -70,3 +74,17 @@ transaction {
     font-family: monospace;
   }
 }
+
+a{
+  color: #f0f0f0
+}
+
+.item-md p{
+  color: #ccc
+}
+
+.chip-md{
+  background-color: #00A4DE;
+  color: #fff
+}
+
