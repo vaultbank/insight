@@ -5,14 +5,15 @@
 
 html,
 body {
-  color: #373D42;
+  color: #fff;
   font-family: 'Ubuntu', sans-serif;
   height: 100%;
+  background: #333 !important;
   /* The html and body elements cannot have any padding or margin. */
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  color: #373D42;
+  color: #fff;
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -22,11 +23,21 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   display: none !important;
 }
 
+.alert-danger{
+  background-color: #000;
+  border:#666;
+  color: #ccc
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td, .table-striped>tbody>tr:nth-child(odd)>th {
+  background-color: #333;
+}
+
 /* Styling for the ngProgress itself */
 #ngProgress {
-  background-color: #6C9032 !important;
+  background-color: #666 !important;
   box-shadow: none !important;
-  color: #373D42 !important;
+  color: #000000 !important;
   height: 3px !important;
   margin: 0;
   opacity: 0;
@@ -95,7 +106,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .pr {position: relative;}
 
 .bgwhite {
-  background-color: white;
+  background-color: red;
 }
 
 .btn-group .btn+.btn, .btn-group .btn+.btn-group, .btn-group .btn-group+.btn, .btn-group .btn-group+.btn-group {
@@ -112,10 +123,10 @@ margin-left: 0;
 }
 
 .navbar-default .navbar-toggle .icon-bar { background-color: #fff; }
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {background-color: #373D42;}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {background-color: #000000;}
 
 .navbar-default {
-  background-color: #8DC429;
+  background-color: #000000;
   margin: 0;
   border: 0;
 }
@@ -158,6 +169,10 @@ margin-left: 0;
 
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
   color: #fffffe;
+}
+
+.navbar-brand{
+  height: 60px;
 }
 
 .navbar-default .navbar-brand {
@@ -216,7 +231,7 @@ margin-left: 0;
 .status {
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
-  background-color: #597338;
+  background-color: #333;
   border-radius: 3px;
   margin: 15px 0;
   padding: 8px 10px;
@@ -269,7 +284,7 @@ margin-left: 0;
 }
 
 .block-id {
-  background-color: #373D42;
+  background-color: #000;
   border: 3px solid #FFFFFF;
   margin: 0 auto;
   width: 165px;
@@ -316,7 +331,7 @@ margin-left: 0;
   border-radius: 2px;
 }
 .btn-primary {
-  background-color: #8DC429;
+  background-color: #000000;
   border: 2px solid #76AF0F;
 }
 
@@ -328,7 +343,7 @@ margin-left: 0;
 .btn-danger.active, .open .dropdown-toggle.btn-danger {
   background-color: #fff;
   border: 2px solid #ccc;
-  color: #373D42;
+  color: #000000;
 }
 
 .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
@@ -363,7 +378,7 @@ margin-left: 0;
 }
 
 .txvalues-primary {
-  background-color: #8DC429;
+  background-color: #000000;
 }
 
 .txvalues-default {
@@ -386,11 +401,11 @@ margin-left: 0;
   font-size: 14px;
   font-weight: normal;
 }
-.progress-bar-info { background-color: #8DC429; }
+.progress-bar-info { background-color: #000000; }
 
 /* Set the fixed height of the footer here */
 #footer {
-  background-color: #373D42;
+  background-color: #000000;
   color: #fff;
   height: 51px;
   overflow: hidden;
@@ -521,7 +536,7 @@ margin-left: 0;
   color: white;
 }
 
-.status .text-danger { background: red; }
+.status .text-danger { background: #333; }
 
 .status .text-warning {
   background: yellow;
@@ -561,7 +576,7 @@ margin-left: 0;
 .btn-copy.zeroclipboard-is-active .tooltip { opacity: 1; }
 
 .tx-id {
-  background-color: #373D42;
+  background-color: #000000;
   border: 3px solid #FFFFFF;
   margin: 0 auto;
   width: 165px;
@@ -826,7 +841,7 @@ a.v_highlight_more {
   }
   .txvalues-primary {
     background: none;
-    color: #8DC429;
+    color: #000000;
   }
   .txvalues-default {
     background: none;
