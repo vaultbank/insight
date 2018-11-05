@@ -1,12 +1,12 @@
 {
-  "name": "insight-ui",
-  "description": "A bitcoin block explorer and API.",
+  "name": "vb-insight-ui",
+  "description": "A bitcoin block explorer and AP customized for VB.",
   "version": "1.0.0",
-  "repository": "git://github.com/bitpay/insight.git",
+  "repository": "git://github.com/vaultbank/insight.git",
   "bugs": {
-    "url": "https://github.com/bitpay/insight/issues"
+    "url": "https://github.com/vaultbank/insight/issues"
   },
-  "homepage": "https://github.com/bitpay/insight",
+  "homepage": "https://github.com/vaultbank/insight",
   "license": "MIT",
   "keywords": [
     "insight",
