@@ -1,8 +1,8 @@
 {
-  "name": "insight-ui",
+  "name": "vb-insight-ui",
   "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the bitcoin network and build your own services with it.",
   "version": "0.4.0",
-  "repository": "git://github.com/bitpay/insight-ui.git",
+  "repository": "git://github.com/vaultbank/insight-ui.git",
   "contributors": [
     {
       "name": "Matias Alejo Garcia",
