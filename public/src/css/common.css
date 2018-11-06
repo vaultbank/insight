@@ -357,11 +357,11 @@ margin-left: 0;
 }
 
 .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
-  background-color: #fff;
+  background-color: #000;
 }
 
 .btn-default {
-  background-color: #E7E7E7;
+  background-color: #666;
 }
 
 .btn-success {
@@ -703,6 +703,10 @@ a{
 a.v_highlight_more {
   background-color: #F0F7E2;
   color: #333;
+}
+
+.btn-more a{
+  color: #666 !important;
 }
 
 .secondary_navbar {
