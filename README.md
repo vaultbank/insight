@@ -15,3 +15,18 @@ git clone -b next https://github.com/bitpay/insight.git && cd insight/server
 npm install
 npm start
 ```
+
+## NPM
+
+Version
+```
+0.4.1
+```
+Installation
+```
+npm i vb-legacy-insight-ui
+```
+NPM Url
+```
+https://www.npmjs.com/package/vb-legacy-insight-ui
+```
